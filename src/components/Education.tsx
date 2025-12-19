@@ -7,7 +7,7 @@ export default function Education() {
       field: 'Computer Science Engineering',
       institution: 'Kongu Engineering College',
       period: '2023 - 2027',
-      gpa: '8.5/10',
+      //gpa: '8.5/10',
       icon: GraduationCap
     }
   ];
@@ -58,9 +58,9 @@ export default function Education() {
                         <h3 className="text-2xl font-bold text-slate-900">{edu.degree}</h3>
                         <p className="text-lg text-cyan-700 font-semibold">{edu.field}</p>
                       </div>
-                      <span className="px-4 py-2 bg-white rounded-lg text-cyan-700 font-semibold shadow-md">
+                      {/* <span className="px-4 py-2 bg-white rounded-lg text-cyan-700 font-semibold shadow-md">
                         GPA: {edu.gpa}
-                      </span>
+                      </span> */}
                     </div>
                     <p className="text-slate-700 font-medium">{edu.institution}</p>
                     <p className="text-slate-600">{edu.period}</p>
